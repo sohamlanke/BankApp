@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bankbackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:id="@+id/recyclerview"/>
+
+       <TextView
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:id="@+id/empty_text"
+           android:visibility="invisible"
+           android:textSize="15dp"
+           android:textColor="#000"
+           android:text="No history"
+           android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_history" type="id" />
+    <item name="transaction_status" type="id" />
+    <item name="AccBal" type="id" />
+    <item name="rupee" type="id" />
+    <item name="rupeeslash" type="id" />
+    <item name="name1" type="id" />
+    <item name="name2" type="id" />
+    <item name="recyclerview" type="id" />
+    <item name="action_search" type="id" />
+    <item name="enter_money" type="id" />
+</resources>
